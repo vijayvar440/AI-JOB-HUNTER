@@ -22,7 +22,15 @@ const resumeSchema = new mongoose.Schema({
         type: [String],
         default: []
     },
-    isActive: {
+    experience: {
+        type: [String],
+        default: []
+    },
+    education: {
+        type: [String],
+        default: []
+    },
+    isPrimary: {
         type: Boolean,
         default: true
     }
